@@ -191,13 +191,15 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
 }
+.advantages-box {
+    padding: 97px 0 3px;
+}
 .advantages {
     display: flex;
-    flex-basis: calc(100% / 4 - 30px);
-    padding-top: 97px;
 }
 .advantage-item {
     margin-right: 30px;
+    flex-basis: calc(100% / 4 - 30px);
 }
 .advantage-item:last-child {
     margin-right: 0;
